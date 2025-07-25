@@ -10,7 +10,7 @@ public class BodyMass {
         double height = scanner.nextDouble();
 
         System.out.print("Enter your weight in kilograms: ");
-        double weight = scanner.nextInt();
+        double weight = scanner.nextDouble();
 
         double bmi = weight / (height * height);
         System.out.println("Your BMI is: " + bmi);
