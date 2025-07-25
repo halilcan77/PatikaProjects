@@ -21,5 +21,5 @@ public class Arithmetich {
         System.out.println("calculation result : " + result );
 
 
-    }1
+    }
 }
