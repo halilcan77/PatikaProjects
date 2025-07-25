@@ -7,19 +7,19 @@ public class Arithmetich {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the first number: ");
-        double a = scan.nextInt();
+        int a = scan.nextInt();
 
         System.out.println("Enter the second number: ");
-        double b = scan.nextInt();
+        int b = scan.nextInt();
 
         System.out.println("Enter third number: ");
-        double c = scan.nextInt();
+        int c = scan.nextInt();
 
-        double sonuc = a+b*c-b;
+        int sonuc = a+b*c-b;
 
 
         System.out.println("calculation result : " + sonuc);
 
 
-    }
+    }1
 }
