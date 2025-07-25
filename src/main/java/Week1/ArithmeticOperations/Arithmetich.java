@@ -7,15 +7,15 @@ public class Arithmetich {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the first number: ");
-        int a = scan.nextInt();
+        double a = scan.nextInt();
 
         System.out.println("Enter the second number: ");
-        int b = scan.nextInt();
+        double b = scan.nextInt();
 
         System.out.println("Enter third number: ");
-        int c = scan.nextInt();
+        double c = scan.nextInt();
 
-        int sonuc = a+b*c-b;
+        double sonuc = a+b*c-b;
 
 
         System.out.println("calculation result : " + sonuc);
