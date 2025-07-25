@@ -15,10 +15,10 @@ public class Arithmetich {
         System.out.println("Enter third number: ");
         int c = scan.nextInt();
 
-        int sonuc = a+b*c-b;
+        int result = a+b*c-b;
 
 
-        System.out.println("calculation result : " + sonuc);
+        System.out.println("calculation result : " + result );
 
 
     }1
